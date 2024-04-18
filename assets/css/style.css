@@ -475,6 +475,10 @@
   padding-bottom: 71px;
 }
 
+.width-100{
+  width: 100%;
+}
+
 @media (min-width: 576px) {
   .slick-slider2 .slick-slide {
     margin: 0 12px;
@@ -497,6 +501,10 @@
   .arrow-png4 {
     left: -30px;
     top: 36%;
+  }
+
+  .width-sm-unset{
+    width: unset !important;
   }
 }
 
