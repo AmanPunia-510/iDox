@@ -511,6 +511,48 @@
   border-right: 1px solid white;
 }
 
+.section11 {
+  background-image: url(../images/header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 485px;
+  margin-top: 33px;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.get-box {
+  max-width: 617px;
+}
+
+.search-box {
+  max-width: 520px;
+  height: 55px;
+  border-radius: 29px;
+  background: #fbfdff12;
+}
+
+.sign-up {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding-left: 33px;
+  width: 67%;
+}
+
+.sign-btn {
+  width: 162px;
+  height: 53px;
+  border-radius: 40px;
+}
+
 @media (min-width: 576px) {
   .slick-slider2 .slick-slide {
     margin: 0 12px;
@@ -543,7 +585,7 @@
     border: 1px solid wheat;
   }
 
-  .border-sm-right{
+  .border-sm-right {
     border-right: 1px solid wheat;
   }
 }

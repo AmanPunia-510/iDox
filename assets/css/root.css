@@ -83,6 +83,7 @@
   --ai-time: #0389ff;
   --color-b1: #b1bbc6;
   --sub-card: #00000054;
+  --color-b7: #B0B7BD;
   --ff-poppins: "Poppins", sans-serif;
 }
 
@@ -236,6 +237,10 @@
 
 .color-b1 {
   color: var(--color-b1);
+}
+
+.color-b7{
+  color: var(--color-b7);
 }
 
 @media (min-width: 1200px) {
