@@ -1,5 +1,32 @@
 @import url("./root.css");
 
+.preloader {
+  background-image: url(../images/download.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 100;
+  height: 105%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.z-31 {
+  z-index: 31;
+}
+
+.loading {
+  width: 300px;
+  height: 300px;
+}
+
 .nav-list {
   text-transform: uppercase;
 }
@@ -67,7 +94,7 @@
   margin-top: 82px;
 }
 
-/* menubar toggle */
+/*---------------------------------------------- menubar toggle---------------------------------------------------- */
 
 #checkbox {
   display: none;
@@ -281,7 +308,7 @@
   padding-bottom: 45px;
 }
 
-/* slider 2 content */
+/* ---------------------------------slider 2 content--------------------------------- */
 
 .slider2-box {
   padding: 10px 12px;
@@ -349,10 +376,27 @@
   bottom: -66px !important;
 }
 
-/* filter property */
+/*------------------------ filter property -------------------------------- */
 
 .filter {
   filter: grayscale(100%) brightness(4);
+}
+
+/*--------------------------- all sides border ------------------------------*/
+
+.border-left {
+  border-left: 1px solid var(--border-color);
+}
+
+.border-top {
+  border-top: 1px solid var(--border-color);
+}
+.border-bot {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.border-right {
+  border-right: 1px solid var(--border-color);
 }
 
 .z-1 {
@@ -499,19 +543,6 @@
   padding: 53px;
 }
 
-/* all sides border */
-
-.border-left {
-  border-left: 1px solid var(--border-color);
-}
-
-.border-top {
-  border-top: 1px solid var(--border-color);
-}
-.border-bot {
-  border-bottom: 1px solid var(--border-color);
-}
-
 .our-txt {
   padding-bottom: 71px;
 }
@@ -544,10 +575,6 @@
   border: 1px solid var(--border-color);
   background-color: unset;
   outline: none;
-}
-
-.border-right {
-  border-right: 1px solid var(--border-color);
 }
 
 .section11 {
@@ -680,7 +707,7 @@
   display: none;
 }
 
-/* hover effects */
+/*--------------------------------------hover effects------------------------------------*/
 
 .commen-btn:hover {
   background-color: var(--white-color);
@@ -727,6 +754,13 @@
 .footer-list a:hover {
   text-shadow: 0px 0px 15px var(--white-color);
   color: var(--white-color);
+}
+
+.next-time-box:hover,
+.time-saving:hover,
+.another-box:hover {
+  box-shadow: 0px 0px 10px var(--color-blue);
+  cursor: pointer;
 }
 
 @media (min-width: 576px) {
@@ -1086,5 +1120,26 @@
     padding: 5px 10px 5px 10px;
     width: 220px;
     height: 58px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-items {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 102vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/download.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.5s;
+  }
+
+  .show {
+    left: 0;
   }
 }
