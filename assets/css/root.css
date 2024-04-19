@@ -80,7 +80,6 @@
   --save-svg3: #23a5661a;
   --save-svg4: #f156421a;
   --save-card: #0389ff1f;
-  --bars-color: rgb(176, 92, 255);
   --nav-color: #fbfdff03;
   --colaborate-color: #b1b5b9;
   --time-saving: #0389ff1f;
@@ -248,10 +247,6 @@
 
 .commen-save-card {
   background-color: var(--save-card);
-}
-
-.bars {
-  background-color: var(--bars-color);
 }
 
 .ai-time-color {
