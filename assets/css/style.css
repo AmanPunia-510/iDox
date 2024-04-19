@@ -1,7 +1,7 @@
 @import url("./root.css");
 
 .preloader {
-  background-image: url('../images/download.png');
+  background-image: url("../images/download.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,15 +12,15 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .z-30 {
@@ -49,7 +49,7 @@
   border: none;
   outline: none;
   -webkit-box-shadow: 0px 4px 32px 0px var(--nav-shadow);
-          box-shadow: 0px 4px 32px 0px var(--nav-shadow);
+  box-shadow: 0px 4px 32px 0px var(--nav-shadow);
   -webkit-transition: all 0.2s linear !important;
   -o-transition: all 0.2s linear !important;
   transition: all 0.2s linear !important;
@@ -64,7 +64,7 @@
   background-color: var(--nav-color);
   border-bottom: 1px solid var(--nav-border);
   -webkit-backdrop-filter: blur(30px);
-          backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
 }
 
 .all-content {
@@ -123,18 +123,18 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   gap: 10px;
   -webkit-transition-duration: 0.5s;
-       -o-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .bars {
@@ -146,8 +146,8 @@
 
 #bar2 {
   -webkit-transition-duration: 0.8s;
-       -o-transition-duration: 0.8s;
-          transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
 }
 
 #bar1,
@@ -158,52 +158,52 @@
 #checkbox:checked + .toggle .bars {
   position: absolute;
   -webkit-transition-duration: 0.5s;
-       -o-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 #checkbox:checked + .toggle #bar2 {
   -webkit-transform: scaleX(0);
-      -ms-transform: scaleX(0);
-          transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
   -webkit-transition-duration: 0.5s;
-       -o-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 #checkbox:checked + .toggle #bar1 {
   width: 100%;
   -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
   -webkit-transition-duration: 0.5s;
-       -o-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 #checkbox:checked + .toggle #bar3 {
   width: 100%;
   -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   -webkit-transition-duration: 0.5s;
-       -o-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 #checkbox:checked + .toggle {
   -webkit-transition-duration: 0.5s;
-       -o-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
   -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .commen-save-card {
   padding: 16px 20px 16px 20px;
   -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   width: 221px;
   height: 96px;
 }
@@ -232,13 +232,13 @@
 
 .commen-slider {
   -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  filter: grayscale(100%);
   cursor: pointer;
 }
 
 .commen-slider:hover {
   -webkit-filter: grayscale(0%);
-          filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .mt-28 {
@@ -371,11 +371,11 @@
   display: -ms-flexbox !important;
   display: flex !important;
   -webkit-box-align: center !important;
-      -ms-flex-align: center !important;
-          align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
   -webkit-box-pack: center !important;
-      -ms-flex-pack: center !important;
-          justify-content: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
 }
 .slider2-txt {
   font-style: italic;
@@ -434,7 +434,7 @@
 
 .filter {
   -webkit-filter: grayscale(100%) brightness(4);
-          filter: grayscale(100%) brightness(4);
+  filter: grayscale(100%) brightness(4);
 }
 
 /*--------------------------- all sides border ------------------------------*/
@@ -482,8 +482,8 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 100%;
 }
 
@@ -503,8 +503,8 @@
   background-color: var(--time-saving);
   padding: 20px;
   -webkit-transition-duration: 0.2s;
-       -o-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
   cursor: pointer;
 }
 
@@ -552,12 +552,12 @@
   border-radius: 103px;
   border: 1px solid var(--plus-box-border);
   -webkit-backdrop-filter: blur(27px);
-          backdrop-filter: blur(27px);
+  backdrop-filter: blur(27px);
   top: 0px;
   right: 0px;
   -webkit-transition-duration: 0.2s;
-       -o-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
 }
 
 .pt-12 {
@@ -650,7 +650,7 @@
 }
 
 .section11 {
-  background-image: url('../images/header.png');
+  background-image: url("../images/header.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -734,8 +734,8 @@
   top: 65%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 100%;
 }
 
@@ -776,7 +776,7 @@
 
 .commen-sec10:hover .select-btn {
   -webkit-box-shadow: 0px 4px 32px 0px var(--color-shadow);
-          box-shadow: 0px 4px 32px 0px var(--color-shadow);
+  box-shadow: 0px 4px 32px 0px var(--color-shadow);
   background-color: var(--color-blue);
 }
 
@@ -789,7 +789,7 @@
 .commen-btn:hover {
   background-color: var(--white-color);
   -webkit-box-shadow: unset;
-          box-shadow: unset;
+  box-shadow: unset;
 }
 
 .nav-list a {
@@ -825,7 +825,7 @@
 .commen-icon:hover {
   background-color: var(--white-color);
   -webkit-box-shadow: 0px 0px 15px var(--white-color);
-          box-shadow: 0px 0px 15px var(--white-color);
+  box-shadow: 0px 0px 15px var(--white-color);
 }
 
 .insta:hover svg path {
@@ -841,7 +841,7 @@
 .time-saving:hover,
 .another-box:hover {
   -webkit-box-shadow: 0px 0px 10px var(--color-blue);
-          box-shadow: 0px 0px 10px var(--color-blue);
+  box-shadow: 0px 0px 10px var(--color-blue);
   cursor: pointer;
 }
 
@@ -849,12 +849,16 @@
   background-color: var(--color-blue);
   cursor: pointer;
   -webkit-box-shadow: 0px 0px 15px var(--white-color);
-          box-shadow: 0px 0px 15px var(--white-color);
+  box-shadow: 0px 0px 15px var(--white-color);
 }
 
-.data-card:hover{
+.data-card:hover {
   -webkit-box-shadow: 0px 0px 10px var(--color-blue);
-          box-shadow: 0px 0px 10px var(--color-blue);
+  box-shadow: 0px 0px 10px var(--color-blue);
+}
+
+.commen-save-card {
+  border-radius: 12px;
 }
 
 @media (min-width: 576px) {
@@ -869,8 +873,8 @@
     top: 55%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 
   .sec6-right {
@@ -911,7 +915,7 @@
 
   /* all hover effects */
   .hover-effect:hover {
-    background-image: url('../images/sec10-hover.png');
+    background-image: url("../images/sec10-hover.png");
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -919,7 +923,7 @@
   }
 
   .hover-effect3:hover {
-    background-image: url('../images/sec10-hover.png');
+    background-image: url("../images/sec10-hover.png");
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -927,7 +931,7 @@
   }
 
   .hover-effect1:hover {
-    background-image: url('../images/sec10-hover.png');
+    background-image: url("../images/sec10-hover.png");
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -1025,8 +1029,8 @@
     top: 65%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -1059,10 +1063,6 @@
     width: 64px;
     height: 64px;
     border-radius: 14px;
-  }
-
-  .commen-save-card {
-    border-radius: 12px;
   }
 
   .slider2-box {
@@ -1230,18 +1230,18 @@
     width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-image: url('../images/download.png');
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-image: url("../images/download.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-transition-duration: 0.5s;
-         -o-transition-duration: 0.5s;
-            transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
   }
 
   .show {
