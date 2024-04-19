@@ -680,6 +680,8 @@
   display: none;
 }
 
+/* hover effects */
+
 .commen-btn:hover {
   background-color: var(--white-color);
   box-shadow: unset;
