@@ -308,10 +308,6 @@
   bottom: 0;
 }
 
-.mw-416 {
-  max-width: 416px;
-}
-
 .tick-svg {
   border-radius: 26px;
   height: 51px;
@@ -783,7 +779,7 @@
   display: none;
 }
 
-.footer-list{
+.footer-list {
   margin-bottom: 10px !important;
 }
 
@@ -1035,6 +1031,10 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+
+  .mw-416 {
+    max-width: 416px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1230,7 +1230,7 @@
 
 @media (max-width: 768px) {
   .mw-416{
-    max-width: 531px !important;
+    width: 486px;
   }
 }
 
@@ -1261,4 +1261,3 @@
     left: 0;
   }
 }
-
