@@ -1228,6 +1228,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .mw-416{
+    max-width: 531px !important;
+  }
+}
+
 @media (max-width: 992px) {
   .navbar-items {
     position: fixed;
@@ -1255,3 +1261,4 @@
     left: 0;
   }
 }
+
