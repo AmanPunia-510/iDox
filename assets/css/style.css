@@ -693,7 +693,6 @@
 
 .footer-p {
   padding-top: 19px;
-  max-width: 225px;
   line-height: var(--lh-21);
 }
 
@@ -1179,6 +1178,10 @@
   .sec1-left {
     bottom: -38%;
     left: -52px;
+  }
+
+  .footer-p {
+    max-width: 225px;
   }
 }
 
