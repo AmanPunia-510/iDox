@@ -1117,7 +1117,7 @@
   }
 
   .hover-effect3:hover {
-    background-position-x: -170px;
+    background-position-x: -137px;
     background-position-y: -38px;
   }
 }
@@ -1227,13 +1227,13 @@
     height: 58px;
   }
 
-  .mw-531{
+  .mw-531 {
     width: 468px;
   }
 }
 
 @media (max-width: 768px) {
-  .mw-416{
+  .mw-416 {
     width: 486px;
   }
 }
