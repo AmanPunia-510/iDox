@@ -356,7 +356,6 @@
 
 .slider2-box {
   padding: 10px 12px;
-  max-width: 946px !important;
   min-height: 253px;
   border-radius: 20px;
   background: var(--time-saving);
